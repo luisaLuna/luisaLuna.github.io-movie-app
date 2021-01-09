@@ -107,3 +107,25 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 30px;
+}
+
+.navbar-links li:hover {
+  background-color: var(--primary-color);
+}
